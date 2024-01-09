@@ -18,8 +18,16 @@ body {
   gap: 1rem;
 }
   .p-tahu{
-    -webkit-text-stroke: 2px azure;
-      -webkit-text-fill-color: #87C4FF;
+    color:#39A7FF;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #39A7FF;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 20px;
+    -webkit-text-stroke: 1px azure;
+      -webkit-text-fill-color: #39A7FF;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif
         
   }
