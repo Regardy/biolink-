@@ -17,15 +17,21 @@ body {
   padding-bottom: 5rem;
   gap: 1rem;
 }
-  
-}
+  .p-tahu{
+    -webkit-text-stroke: 2px azure;
+      -webkit-text-fill-color: #87C4FF;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif
+        
+  }
+
+
 .bg-text-animation {
   position: absolute;
   top: 5rem;
-  font-size: 12rem;
+  font-size: 5rem;
   text-transform: uppercase;
-  font-weight: 10000;
-  -webkit-text-stroke: 2px #2d2d56;
+  font-weight: 100;
+  -webkit-text-stroke: 2px #FFEED9;
   -webkit-text-fill-color: transparent;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   z-index: -1;
