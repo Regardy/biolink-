@@ -6,6 +6,7 @@ body, html {
 }
 
 body {
+  background-position:absolute ;
   background: url(./img/bg01.jpg) no-repeat center center fixed;
   background-size: cover;
   color:#39A7FF;
