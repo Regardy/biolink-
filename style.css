@@ -1,4 +1,4 @@
-body, html {
+*, html {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
@@ -7,8 +7,9 @@ body, html {
 
 body {
   background-position:absolute ;
-  background: url(./img/bg01.jpg) no-repeat center center fixed;
+  background: url(./img/bg01.jpg) center center fixed;
   background-size: cover;
+height: 100vh;
   color:#39A7FF;
   display: flex;
   flex-direction: column;
@@ -17,8 +18,8 @@ body {
   padding-top: 4rem;
   padding-bottom: 5rem;
   gap: 1rem;
-}
   
+}
    .p-tahu{
     color:azure;
     font-size: 13px;
@@ -54,14 +55,15 @@ body {
 .bg-text-animation {
   position: absolute;
   top: 5rem;
-  font-size: 5rem;
+  font-size: 4rem;
   text-transform: uppercase;
-  font-weight: 100;
-  -webkit-text-stroke: 2px #FFEED9;
+  font-weight: 20;
+  -webkit-text-stroke: 1px skyblue;
   -webkit-text-fill-color: transparent;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  z-index: -1;
+  z-index: -2;
   user-select: none;
+
 }
 
 .my-photo {
@@ -79,7 +81,7 @@ a {
 
 .sosmed i {
   font-size: 1.5rem;
-  color: #87C4FF;
+  color: #333;
 }
 
 .sosmed i:hover {
@@ -107,10 +109,12 @@ ul.links li:not(:last-child) {
 }
 .my-photo {
 box-shadow: 0px 0px 20px #39A7FF;
+background-color: black;
 }
 }
 .links {
   margin-top: 1rem;
+
 }
 
 .link-card {
@@ -118,15 +122,19 @@ box-shadow: 0px 0px 20px #39A7FF;
   justify-content: space-between;
   align-items: center;
   background-color: #E0F4FF;
+  margin: 4px;
   gap: 1rem;
   padding: 1rem;
-  border-radius: 20px;
-  box-shadow: 8px 10px 0 #39A7FF;
+  border-radius: 30px;
+  box-shadow: 1px 2px 0 #39A7FF;
   border: 2px solid #FFEED9;
 }
 
 .link-card:hover {
   border: 2px solid white;
+  background-color: azure;
+  transition: .5s ease-in-out;
+  transition-delay: .3s;
 }
 
 .links .link-icon {
@@ -140,11 +148,12 @@ box-shadow: 0px 0px 20px #39A7FF;
 }
 
 .links .link-icon i {
-  color: white;
+  color: #444;
 }
 
 .links .link-text {
   text-align: center;
+  color: #666;
 }
 
 .link-action {
@@ -159,8 +168,9 @@ box-shadow: 0px 0px 20px #39A7FF;
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
-  color: #FFEED9;
+  color: #7;
   font-size: 0.75rem;
+  
 }
 
 .copyright img {
